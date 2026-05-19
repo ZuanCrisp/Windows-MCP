@@ -1,0 +1,27 @@
+Original tag name: v0.8.0
+Original tag object: 3302d37262480e0c88f7db9a07765b3574c74b59
+Original target commit: ee5553ffaa4037cdeb7165cb43369b9b333c25f9
+Original object type: tag
+
+--- Original annotated tag object body ---
+object ee5553ffaa4037cdeb7165cb43369b9b333c25f9
+type commit
+tag v0.8.0
+tagger jeomon <jeogeoalukka@gmail.com> 1779168541 +0530
+
+Windows-MCP v0.8.0
+
+Highlights:
+- Add Firefox IAccessible2 / MSAA fallback for DOM extraction.
+- Add --stateless-http support for streamable-http transport.
+- Improve screenshot capture feedback with a visible Win32 glow overlay.
+- Align README and client examples with the current 'serve' subcommand.
+- Document auth helper, OAuth/stateless HTTP env vars, and correct tool names.
+- Bump package metadata from 0.7.5 to 0.8.0.
+
+Contributors since v0.7.5:
+- Sergei Kabuldzhanov: added Firefox IAccessible2 / MSAA DOM extraction fallback and follow-up API/docs cleanup.
+- Alex Schick: implemented and refined the screenshot flash/glow overlay, including Win32 layered-window rendering and follow-up test/refactor work.
+- Ilya Volkov: added the --stateless-http flag for streamable-http transport.
+- Matt Van Horn: fixed PostHog write-key configuration to read from the environment instead of a hardcoded value.
+- Jeomon George / jeomon: merged release work, patched authlib for CVE-2026-44681, and prepared the v0.8.0 docs/version release.
