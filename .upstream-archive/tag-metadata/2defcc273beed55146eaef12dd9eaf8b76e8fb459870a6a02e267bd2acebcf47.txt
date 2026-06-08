@@ -1,0 +1,12 @@
+Original tag name: v0.8.2
+Original tag object: 422cf21d86d11c33328eec963d71f7bbb908962a
+Original target commit: cba57698164adf9a48f09b411ffb646151fee833
+Original object type: tag
+
+--- Original annotated tag object body ---
+object cba57698164adf9a48f09b411ffb646151fee833
+type commit
+tag v0.8.2
+tagger jeomon <jeogeoalukka@gmail.com> 1780932002 +0530
+
+v0.8.2
